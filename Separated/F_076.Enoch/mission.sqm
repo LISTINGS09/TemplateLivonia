@@ -1,0 +1,441 @@
+version=53;
+class EditorData
+{
+	moveGridStep=0.125;
+	angleGridStep=0.08726646;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=37;
+	class ItemIDProvider
+	{
+		nextID=23741;
+	};
+	class LayerIndexProvider
+	{
+		nextID=417;
+	};
+	class Camera
+	{
+		pos[]={3184.5171,269.07047,4953.3135};
+		dir[]={-0.82735813,-0.39364091,-0.40069023};
+		up[]={-0.35428324,0.91926557,-0.17157923};
+		aside[]={-0.43588105,-2.7142232e-007,0.90002215};
+	};
+};
+binarizationWanted=0;
+addons[]=
+{
+};
+class AddonsMetaData
+{
+	class List
+	{
+	};
+};
+randomSeed=14058537;
+class ScenarioData
+{
+	author="2600K";
+	class Header
+	{
+		gameType="Coop";
+	};
+};
+class CustomAttributes
+{
+	class Category0
+	{
+		name="Multiplayer";
+		class Attribute0
+		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
+					class value
+					{
+						items=1;
+						class Item0
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="None";
+							};
+						};
+					};
+				};
+			};
+		};
+		nAttributes=1;
+	};
+};
+class Mission
+{
+	class Intel
+	{
+		resistanceWest=0;
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=6;
+		day=24;
+		hour=10;
+		minute=0;
+		startFogBase=250;
+		forecastFogBase=250;
+		startFogDecay=0.017999999;
+		forecastFogDecay=0.017999999;
+	};
+	class Entities
+	{
+		items=1;
+		class Item0
+		{
+			dataType="Layer";
+			name="Layer 254";
+			class Entities
+			{
+				items=19;
+				class Item0
+				{
+					dataType="Comment";
+					class PositionInfo
+					{
+						position[]={6211.25,100.71075,12439.5};
+						angles[]={6.1260905,0,0.012798273};
+					};
+					title="Stopped Convoy";
+					id=11608;
+					atlOffset=-7.6293945e-006;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={6164.8228,102.8111,12428.787};
+						angles[]={6.2480001,4.3633242,0.031988446};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=11609;
+					type="I_E_APC_tracked_03_cannon_F";
+					atlOffset=0.00034332275;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={6197.4829,103.90559,12444.962};
+						angles[]={6.2432079,4.2760572,0.014398213};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						lock="LOCKED";
+					};
+					id=11610;
+					type="I_E_Truck_02_MRL_F";
+					atlOffset=-0.00099945068;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={6220.875,104.28802,12455.225};
+						angles[]={6.271987,4.2760572,0.017598685};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						lock="LOCKED";
+					};
+					id=11611;
+					type="I_E_Truck_02_MRL_F";
+					atlOffset=-0.0004119873;
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={6183.8218,103.1783,12431.651};
+						angles[]={6.2687874,4.0142574,0.015998369};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=11612;
+					type="I_E_Truck_02_F";
+					atlOffset=-0.00093841553;
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={6233.3828,104.69198,12467.761};
+						angles[]={6.2240553,5.4977875,0.11469357};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=11613;
+					type="I_E_Truck_02_F";
+					atlOffset=-0.016769409;
+				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={6208.9019,103.81791,12451.075};
+						angles[]={6.2479997,3.3161256,0.012793263};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						lock="LOCKED";
+					};
+					id=11614;
+					type="I_E_Truck_02_fuel_F";
+					atlOffset=-0.0072555542;
+				};
+				class Item7
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={6212,101.53478,12453.375};
+						angles[]={6.2575908,0,0.0032018756};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=11617;
+					type="Oil_Spill_F";
+				};
+				class Item8
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={6218.8389,101.57382,12452.333};
+						angles[]={6.2735858,0.69813168,0.015998369};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=11618;
+					type="Oil_Spill_F";
+				};
+				class Item9
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={6212.1235,101.56418,12451.373};
+						angles[]={6.2575908,0,0.0032018756};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=11619;
+					type="Land_RefuelingHose_01_F";
+				};
+				class Item10
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={6212.7461,101.77837,12451.984};
+						angles[]={6.2575908,0,0.016002094};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=11620;
+					type="Land_CanisterFuel_F";
+					atlOffset=1.5258789e-005;
+				};
+				class Item11
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={6212.8613,101.76801,12451.509};
+						angles[]={6.2575908,2.9670596,0.016002094};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=11621;
+					type="Land_CanisterFuel_F";
+					atlOffset=7.6293945e-006;
+				};
+				class Item12
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={6212.375,101.87105,12449.996};
+						angles[]={6.2480021,0,0.012798273};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=11622;
+					type="Land_MetalBarrel_F";
+					atlOffset=-3.0517578e-005;
+				};
+				class Item13
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={6211.8682,101.85448,12448.739};
+						angles[]={6.2751918,0,0.012798273};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=11623;
+					type="Land_MetalBarrel_F";
+					atlOffset=-6.8664551e-005;
+				};
+				class Item14
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={6212.7231,101.86227,12448.919};
+						angles[]={6.2751918,1.0471976,6.2751846};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=11624;
+					type="Land_MetalBarrel_F";
+				};
+				class Item15
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={6201.0146,101.64767,12442.186};
+						angles[]={6.2735925,0,0};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=11626;
+					type="Land_MetalBarrel_F";
+				};
+				class Item16
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={6201.8696,101.65572,12442.365};
+						angles[]={6.2607903,1.0471976,0.012798273};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=11627;
+					type="Land_MetalBarrel_F";
+					atlOffset=7.6293945e-006;
+				};
+				class Item17
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={6201.6216,101.52026,12443.124};
+						angles[]={6.2607903,2.9670596,0.012798273};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=11629;
+					type="Land_CanisterFuel_F";
+					atlOffset=-4.5776367e-005;
+				};
+				class Item18
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={6202.5,101.26359,12443.375};
+						angles[]={6.2607903,0,0.012798273};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=11630;
+					type="Oil_Spill_F";
+				};
+			};
+			id=23696;
+			atlOffset=-0.004524231;
+		};
+	};
+};

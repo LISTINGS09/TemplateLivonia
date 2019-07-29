@@ -1,0 +1,279 @@
+version=53;
+class EditorData
+{
+	moveGridStep=0.125;
+	angleGridStep=0.08726646;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=37;
+	class ItemIDProvider
+	{
+		nextID=23741;
+	};
+	class LayerIndexProvider
+	{
+		nextID=417;
+	};
+	class Camera
+	{
+		pos[]={3184.5171,269.07047,4953.3135};
+		dir[]={-0.82735813,-0.39364091,-0.40069023};
+		up[]={-0.35428324,0.91926557,-0.17157923};
+		aside[]={-0.43588105,-2.7142232e-007,0.90002215};
+	};
+};
+binarizationWanted=0;
+addons[]=
+{
+};
+class AddonsMetaData
+{
+	class List
+	{
+	};
+};
+randomSeed=14058537;
+class ScenarioData
+{
+	author="2600K";
+	class Header
+	{
+		gameType="Coop";
+	};
+};
+class CustomAttributes
+{
+	class Category0
+	{
+		name="Multiplayer";
+		class Attribute0
+		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
+					class value
+					{
+						items=1;
+						class Item0
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="None";
+							};
+						};
+					};
+				};
+			};
+		};
+		nAttributes=1;
+	};
+};
+class Mission
+{
+	class Intel
+	{
+		resistanceWest=0;
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=6;
+		day=24;
+		hour=10;
+		minute=0;
+		startFogBase=250;
+		forecastFogBase=250;
+		startFogDecay=0.017999999;
+		forecastFogDecay=0.017999999;
+	};
+	class Entities
+	{
+		items=1;
+		class Item0
+		{
+			dataType="Layer";
+			name="Layer 261";
+			class Entities
+			{
+				items=8;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2605.8286,301.91971,1590.5936};
+						angles[]={2.208173,5.3415976,0.57025141};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						health=0.050999645;
+						lock="LOCKED";
+						fuel=0;
+						disableSimulation=1;
+					};
+					id=16795;
+					type="C_Truck_02_transport_F";
+					atlOffset=-0.97396851;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2606.375,300.6308,1590.625};
+						angles[]={0.34906587,1.0471976,0.34906587};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=16796;
+					type="CraterLong";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2609.4673,301.16141,1599.7694};
+						angles[]={0.23857155,3.926991,0.25960681};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=16797;
+					type="Land_PaperBox_01_open_empty_F";
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2604.3357,300.50494,1597.6281};
+						angles[]={0.68354303,5.6022196,4.8235221};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=16798;
+					type="Land_PaperBox_01_open_empty_F";
+					atlOffset=0.15371704;
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2609.6523,300.57739,1599.6146};
+						angles[]={0.23857155,0,0.25960681};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=16799;
+					type="Land_ClutterCutter_medium_F";
+					atlOffset=3.0517578e-005;
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2604.5134,299.72626,1597.5223};
+						angles[]={0.23857155,0,0.25960681};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=16800;
+					type="Land_ClutterCutter_medium_F";
+				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2606.0051,301.043,1591.0939};
+						angles[]={6.1885157,0,0.11876231};
+					};
+					side="Empty";
+					class Attributes
+					{
+					};
+					id=16801;
+					type="Land_ClutterCutter_medium_F";
+					atlOffset=0.64205933;
+				};
+				class Item7
+				{
+					dataType="Comment";
+					class PositionInfo
+					{
+						position[]={2603.8359,299.814,1594.7729};
+					};
+					title="Crashed Truck";
+					id=16802;
+					atlOffset=-0.00045776367;
+				};
+			};
+			id=23703;
+			atlOffset=0.28964233;
+		};
+	};
+};

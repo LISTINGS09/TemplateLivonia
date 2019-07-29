@@ -1,0 +1,297 @@
+version=53;
+class EditorData
+{
+	moveGridStep=0.125;
+	angleGridStep=0.08726646;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=37;
+	class ItemIDProvider
+	{
+		nextID=23741;
+	};
+	class LayerIndexProvider
+	{
+		nextID=417;
+	};
+	class Camera
+	{
+		pos[]={3184.5171,269.07047,4953.3135};
+		dir[]={-0.82735813,-0.39364091,-0.40069023};
+		up[]={-0.35428324,0.91926557,-0.17157923};
+		aside[]={-0.43588105,-2.7142232e-007,0.90002215};
+	};
+};
+binarizationWanted=0;
+addons[]=
+{
+};
+class AddonsMetaData
+{
+	class List
+	{
+	};
+};
+randomSeed=14058537;
+class ScenarioData
+{
+	author="2600K";
+	class Header
+	{
+		gameType="Coop";
+	};
+};
+class CustomAttributes
+{
+	class Category0
+	{
+		name="Multiplayer";
+		class Attribute0
+		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
+					class value
+					{
+						items=1;
+						class Item0
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="None";
+							};
+						};
+					};
+				};
+			};
+		};
+		nAttributes=1;
+	};
+};
+class Mission
+{
+	class Intel
+	{
+		resistanceWest=0;
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=6;
+		day=24;
+		hour=10;
+		minute=0;
+		startFogBase=250;
+		forecastFogBase=250;
+		startFogDecay=0.017999999;
+		forecastFogDecay=0.017999999;
+	};
+	class Entities
+	{
+		items=1;
+		class Item0
+		{
+			dataType="Layer";
+			name="Layer 182";
+			class Entities
+			{
+				items=11;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={344.91232,234.44626,12395.019};
+						angles[]={0.065504223,0,6.219274};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=7009;
+					type="Land_ShellCrater_01_F";
+					atlOffset=-0.00028991699;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={311.71875,232.61678,12347.211};
+						angles[]={0.083009377,0,0.16644628};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=7010;
+					type="Land_ShellCrater_02_large_F";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={312.0271,230.82805,12396.197};
+						angles[]={6.278389,0,0.011198638};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=7011;
+					type="Land_ShellCrater_02_small_F";
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={311.11255,234.20734,12346.569};
+						angles[]={0.083009377,0,0.16644628};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=7012;
+					type="CraterLong_02_small_F";
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={373.27332,236.81342,12329.881};
+						angles[]={0.076648585,0,6.2176785};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=7013;
+					type="CraterLong_02_small_F";
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={311.935,231.60817,12395.737};
+						angles[]={6.278389,1.5707964,0.011198638};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=7014;
+					type="CraterLong_02_small_F";
+				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={311.40201,237.07791,12347.838};
+						angles[]={0.083009377,1.5707964,0.16644628};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=7015;
+					type="Land_Wreck_Heli_02_Wreck_01_F";
+				};
+				class Item7
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={373.11761,236.00359,12330.358};
+						angles[]={0.076648585,0,6.2176785};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=7016;
+					type="Land_ShellCrater_02_small_F";
+				};
+				class Item8
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={372.97507,238.67064,12330.907};
+						angles[]={0.076648585,0,6.2176785};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=7017;
+					type="Land_Wreck_Heli_02_Wreck_02_F";
+				};
+				class Item9
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={345.07925,234.94617,12394.83};
+					};
+					side="Empty";
+					class Attributes
+					{
+					};
+					id=7018;
+					type="Land_Wreck_Heli_02_Wreck_04_F";
+					atlOffset=0.33920288;
+				};
+				class Item10
+				{
+					dataType="Comment";
+					class PositionInfo
+					{
+						position[]={340.17099,235.15601,12362.205};
+					};
+					title="Crashed Helicopter";
+					id=7019;
+					atlOffset=-0.00030517578;
+				};
+			};
+			id=23624;
+			atlOffset=-0.18482971;
+		};
+	};
+};
